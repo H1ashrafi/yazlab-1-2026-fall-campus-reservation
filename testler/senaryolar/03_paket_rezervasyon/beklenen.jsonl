@@ -1,0 +1,12 @@
+{"no":1,"komut":"paket","durum":"RED","kod":"BULUNAMADI"}
+{"no":2,"komut":"paket","durum":"RED","kod":"PAKET_BOYUTU","kalemler":[]}
+{"no":3,"komut":"paket","durum":"RED","kod":"PAKET_BOYUTU","kalemler":[]}
+{"no":4,"komut":"paket","durum":"RED","kod":"PAKET_RED","kalemler":[{"sira":0,"durum":"TAMAM"},{"sira":1,"durum":"RED","kod":"ZAMAN_ADIMI_HATASI"}]}
+{"no":5,"komut":"paket","durum":"RED","kod":"PAKET_RED","kalemler":[{"sira":0,"durum":"RED","kod":"SERTIFIKA_YOK"},{"sira":1,"durum":"RED","kod":"ROL_IZNI_YOK"}]}
+{"no":6,"komut":"paket","durum":"RED","kod":"PAKET_ICI_KESISME","kalemler":[{"sira":0,"durum":"TAMAM"},{"sira":1,"durum":"TAMAM"}]}
+{"no":7,"komut":"paket","durum":"RED","kod":"BAKIYE_YETERSIZ","kalemler":[{"sira":0,"durum":"TAMAM"},{"sira":1,"durum":"TAMAM"},{"sira":2,"durum":"TAMAM"}]}
+{"no":8,"komut":"paket","durum":"TAMAM","paket_id":"p1","rezervasyonlar":["r1","r2","r3"],"ucretler":[48,16,8],"toplam":72,"bakiye":228}
+{"no":9,"komut":"rezervasyon","durum":"TAMAM","rezervasyon_id":"r4","ucret":12,"bakiye":588}
+{"no":10,"komut":"iptal","durum":"TAMAM","iade":8,"bakiye":236,"guvenilirlik":80,"olaylar":[]}
+{"no":11,"komut":"sorgu","durum":"TAMAM","bakiye":236,"guvenilirlik":80,"rezervasyonlar":[{"id":"r1","kaynak":"CIH-1","baslangic":"2027-03-08T10:00","bitis":"2027-03-08T12:00","durum":"ONAYLI","ucret":48},{"id":"r2","kaynak":"LAB-1","baslangic":"2027-03-08T10:00","bitis":"2027-03-08T12:00","durum":"IPTAL","ucret":16},{"id":"r3","kaynak":"ODA-1","baslangic":"2027-03-08T10:00","bitis":"2027-03-08T12:00","durum":"ONAYLI","ucret":8}]}
+{"no":12,"komut":"paket","durum":"RED","kod":"PAKET_RED","kalemler":[{"sira":0,"durum":"RED","kod":"KESISME"},{"sira":1,"durum":"RED","kod":"BAKIM"}]}

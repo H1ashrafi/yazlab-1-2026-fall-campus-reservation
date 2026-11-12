@@ -1,0 +1,8 @@
+{"komut":"rezervasyon","kullanici":"u4","kaynak":"LAB-1","baslangic":"2027-03-08T08:00","bitis":"2027-03-08T09:00"}
+{"komut":"rezervasyon","kullanici":"u3","kaynak":"ODA-1","baslangic":"2027-03-08T08:45","bitis":"2027-03-08T09:45"}
+{"komut":"bekleme","kullanici":"u1","kaynak":"ODA-1","baslangic":"2027-03-08T09:15","bitis":"2027-03-08T10:15"}
+{"komut":"giris","rezervasyon":"r1"}
+{"komut":"saat","zaman":"2027-03-08T09:00"}
+{"komut":"sorgu","tur":"kaynak","id":"ODA-1","gun":"2027-03-08"}
+{"komut":"rezervasyon","kullanici":"u4","kaynak":"LAB-1","baslangic":"2027-03-08T09:00","bitis":"2027-03-08T10:00"}
+{"komut":"rezervasyon","kullanici":"u3","kaynak":"LAB-1","baslangic":"2027-03-08T09:15","bitis":"2027-03-08T10:00"}

@@ -1,0 +1,8 @@
+{"no":1,"komut":"rezervasyon","durum":"TAMAM","rezervasyon_id":"r1","ucret":8,"bakiye":592}
+{"no":2,"komut":"rezervasyon","durum":"TAMAM","rezervasyon_id":"r2","ucret":4,"bakiye":296}
+{"no":3,"komut":"bekleme","durum":"TAMAM","bekleme_id":"b1","sira":1}
+{"no":4,"komut":"giris","durum":"TAMAM","yeni_durum":"KULLANIMDA"}
+{"no":5,"komut":"saat","durum":"TAMAM","olaylar":[{"zaman":"2027-03-08T09:00","tur":"TAMAMLANDI","rezervasyon":"r1","kullanici":"u4","guvenilirlik":82},{"zaman":"2027-03-08T09:00","tur":"GELMEDI","rezervasyon":"r2","kullanici":"u3","guvenilirlik":65},{"zaman":"2027-03-08T09:00","tur":"OTOMATIK_ATAMA","bekleme":"b1","rezervasyon":"r3","kullanici":"u1","ucret":4,"bakiye":116}]}
+{"no":6,"komut":"sorgu","durum":"TAMAM","doluluk":[{"baslangic":"2027-03-08T09:15","bitis":"2027-03-08T10:15","tur":"REZERVASYON","rezervasyon":"r3"}]}
+{"no":7,"komut":"rezervasyon","durum":"RED","kod":"HAZIRLIK_IHLALI"}
+{"no":8,"komut":"rezervasyon","durum":"TAMAM","rezervasyon_id":"r4","ucret":6,"bakiye":290}

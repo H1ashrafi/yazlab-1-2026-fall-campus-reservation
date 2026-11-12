@@ -1,0 +1,25 @@
+{"komut":"kullanici_ekle","id":"u3","ad":"Tekrar Kayit","rol":"OGRENCI","sertifikalar":[],"bakiye":10,"guvenilirlik":50}
+{"komut":"kullanici_ekle","id":"u3","ad":"Tekrar Kayit","rol":"MISAFIR","sertifikalar":[],"bakiye":-5,"guvenilirlik":500}
+{"komut":"kullanici_ekle","id":"u5","ad":"Zeynep Ak","rol":"MISAFIR","sertifikalar":[],"bakiye":-5,"guvenilirlik":500}
+{"komut":"kullanici_ekle","id":"u5","ad":"Zeynep Ak","rol":"OGRENCI","sertifikalar":[],"bakiye":121,"guvenilirlik":80}
+{"komut":"kullanici_ekle","id":"u5","ad":"Zeynep Ak","rol":"OGRENCI","sertifikalar":[],"bakiye":-1,"guvenilirlik":80}
+{"komut":"kullanici_ekle","id":"u5","ad":"Zeynep Ak","rol":"OGRENCI","sertifikalar":[],"bakiye":50,"guvenilirlik":101}
+{"komut":"kullanici_ekle","id":"u5","ad":"Zeynep Ak","rol":"OGRENCI","sertifikalar":[],"bakiye":50,"guvenilirlik":75.5}
+{"komut":"kullanici_ekle","id":"u5","ad":"Zeynep Ak","rol":"OGRENCI","sertifikalar":[],"bakiye":120,"guvenilirlik":100}
+{"komut":"kullanici_ekle","id":"u6","ad":"Can Öz","rol":"TEKNISYEN","sertifikalar":[],"bakiye":0,"guvenilirlik":0}
+{"komut":"kaynak_ekle","id":"ODA-1","ad":"Salon","tur":"SALON","izinli_roller":["MISAFIR"]}
+{"komut":"kaynak_ekle","id":"ODA-3","ad":"Salon","tur":"SALON","izinli_roller":["OGRENCI"]}
+{"komut":"kaynak_ekle","id":"ODA-3","ad":"Toplantı Odası C","tur":"ODA","izinli_roller":["OGRENCI","MISAFIR"]}
+{"komut":"kaynak_ekle","id":"YAZ-3","ad":"3B Yazıcı 3","tur":"YAZICI","izinli_roller":["OGRENCI","TEKNISYEN"]}
+{"komut":"rezervasyon","kullanici":"u4","kaynak":"YAZ-2","baslangic":"2027-03-08T10:00","bitis":"2027-03-08T12:00"}
+{"komut":"fiyat","kullanici":"u4","kaynak":"YAZ-3","baslangic":"2027-03-08T10:00","bitis":"2027-03-08T11:00"}
+{"komut":"kaynak_ekle","id":"YAZ-4","ad":"3B Yazıcı 4","tur":"YAZICI","izinli_roller":["TEKNISYEN"]}
+{"komut":"fiyat","kullanici":"u4","kaynak":"YAZ-3","baslangic":"2027-03-08T10:00","bitis":"2027-03-08T11:00"}
+{"komut":"rezervasyon","kullanici":"u5","kaynak":"YAZ-3","baslangic":"2027-03-08T12:00","bitis":"2027-03-08T13:00"}
+{"komut":"rezervasyon","kullanici":"u6","kaynak":"ODA-1","baslangic":"2027-03-08T09:00","bitis":"2027-03-08T10:00"}
+{"komut":"paket","kullanici":"u6","kalemler":[{"kaynak":"ODA-1","baslangic":"2027-03-08T09:00","bitis":"2027-03-08T10:00"},{"kaynak":"ODA-2","baslangic":"2027-03-08T09:00","bitis":"2027-03-08T10:00"}]}
+{"komut":"sorgu","tur":"kaynak","id":"YAZ-3","gun":"2027-03-08"}
+{"komut":"saat","zaman":"2027-03-15T00:00"}
+{"komut":"sorgu","tur":"kullanici","id":"u6"}
+{"komut":"sorgu","tur":"kullanici","id":"u5"}
+{"komut":"kullanici_ekle","id":"u7","ad":"Deniz Kara","rol":"OGRENCI","sertifikalar":[],"bakiye":10,"guvenilirlik":true}

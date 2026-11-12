@@ -1,0 +1,15 @@
+{"no":1,"komut":"rezervasyon","durum":"TAMAM","rezervasyon_id":"r1","ucret":15,"bakiye":85}
+{"no":2,"komut":"rezervasyon","durum":"RED","kod":"HAZIRLIK_IHLALI"}
+{"no":3,"komut":"rezervasyon","durum":"TAMAM","rezervasyon_id":"r2","ucret":15,"bakiye":285}
+{"no":4,"komut":"rezervasyon","durum":"RED","kod":"ILERI_TARIH_SINIRI"}
+{"no":5,"komut":"rezervasyon","durum":"RED","kod":"SURE_SINIRI"}
+{"no":6,"komut":"rezervasyon","durum":"RED","kod":"ILERI_TARIH_SINIRI"}
+{"no":7,"komut":"rezervasyon","durum":"RED","kod":"SERTIFIKA_YOK"}
+{"no":8,"komut":"rezervasyon","durum":"RED","kod":"BAKIM"}
+{"no":9,"komut":"rezervasyon","durum":"TAMAM","rezervasyon_id":"r3","ucret":20,"bakiye":65}
+{"no":10,"komut":"rezervasyon","durum":"TAMAM","rezervasyon_id":"r4","ucret":6,"bakiye":59}
+{"no":11,"komut":"fiyat","durum":"TAMAM","ucret":9}
+{"no":12,"komut":"paket","durum":"RED","kod":"GUVENILIRLIK_DUSUK","kalemler":[]}
+{"no":13,"komut":"saat","durum":"TAMAM","olaylar":[{"zaman":"2027-03-10T10:15","tur":"GELMEDI","rezervasyon":"r1","kullanici":"u1","guvenilirlik":65}]}
+{"no":14,"komut":"rezervasyon","durum":"RED","kod":"HAZIRLIK_IHLALI"}
+{"no":15,"komut":"rezervasyon","durum":"TAMAM","rezervasyon_id":"r5","ucret":8,"bakiye":277}

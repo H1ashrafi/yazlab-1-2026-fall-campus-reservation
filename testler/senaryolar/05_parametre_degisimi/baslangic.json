@@ -1,0 +1,27 @@
+{
+  "saat": "2027-03-10T09:00",
+  "kaynak_turleri": {
+    "ODA":    { "hazirlik_dk": 0,  "temel_ucret": 6,  "enerji_yogun": false, "sertifika": null },
+    "YAZICI": { "hazirlik_dk": 45, "temel_ucret": 10, "enerji_yogun": true,  "sertifika": null },
+    "STUDYO": { "hazirlik_dk": 5,  "temel_ucret": 20, "enerji_yogun": false, "sertifika": "STUDYO_EGITIMI" }
+  },
+  "roller": {
+    "OGRENCI":     { "haftalik_kota": 100, "ileri_gun": 3,  "azami_sure_dk": 120 },
+    "ARASTIRMACI": { "haftalik_kota": 300, "ileri_gun": 14, "azami_sure_dk": 480 }
+  },
+  "kaynaklar": [
+    { "id": "ODA-1", "ad": "Seminer Odası", "tur": "ODA",    "izinli_roller": ["OGRENCI", "ARASTIRMACI"] },
+    { "id": "YAZ-1", "ad": "3B Yazıcı 1",   "tur": "YAZICI", "izinli_roller": ["OGRENCI", "ARASTIRMACI"] },
+    { "id": "YAZ-2", "ad": "3B Yazıcı 2",   "tur": "YAZICI", "izinli_roller": ["OGRENCI", "ARASTIRMACI"] },
+    { "id": "YAZ-3", "ad": "3B Yazıcı 3",   "tur": "YAZICI", "izinli_roller": ["OGRENCI", "ARASTIRMACI"] },
+    { "id": "STU-1", "ad": "Ses Stüdyosu",  "tur": "STUDYO", "izinli_roller": ["OGRENCI", "ARASTIRMACI"] }
+  ],
+  "bakim_pencereleri": [
+    { "kaynak": "STU-1", "baslangic": "2027-03-10T12:00", "bitis": "2027-03-10T14:00" }
+  ],
+  "kullanicilar": [
+    { "id": "u1", "ad": "Zeynep Çelik", "rol": "OGRENCI",     "sertifikalar": ["STUDYO_EGITIMI"], "bakiye": 100, "guvenilirlik": 80 },
+    { "id": "u2", "ad": "Emre Şahin",   "rol": "OGRENCI",     "sertifikalar": [],                 "bakiye": 100, "guvenilirlik": 49 },
+    { "id": "u3", "ad": "Selin Aydın",  "rol": "ARASTIRMACI", "sertifikalar": [],                 "bakiye": 300, "guvenilirlik": 100 }
+  ]
+}
