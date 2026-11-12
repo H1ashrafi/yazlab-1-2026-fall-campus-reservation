@@ -45,6 +45,11 @@ Full report (Turkish, IEEE format): [docs/report.pdf](docs/report.pdf)
 
 No API keys, tokens or credentials are used or stored in this repository.
 
+## Authors
+
+- [Hani Ashrafi](https://github.com/H1ashrafi)
+- [Hasan Hüseyin Yüksel](https://github.com/Hasan-Huseyin-Yuksel)
+
 ## License
 
 Free for personal, educational and research use. **Commercial use (selling, publishing the app in a store, or using it in a paid product) is not allowed without written permission.** See `LICENSE` (PolyForm Noncommercial 1.0.0).
